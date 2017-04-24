@@ -1,0 +1,11 @@
+# -*- coding:UTF-8 -*-
+
+def letter_count(str):
+	dict = {}
+	for ele in str:
+		letter_num = str.count(ele)
+		dict[ele] = letter_num
+	print dict
+
+letter_count('hello')
+
